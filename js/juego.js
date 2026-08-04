@@ -59,3 +59,22 @@ if (!juego) {
     });
 
 }
+const estado = document.getElementById("estadoStock");
+
+if(juego.stock){
+
+    estado.innerHTML = `
+        <div class="stock disponible">
+            ✅ Disponible
+        </div>
+    `;
+
+}else{
+
+    estado.innerHTML = `
+        <div class="stock agotado">
+            ❌ Sin Stock
+        </div>
+    `;
+
+}

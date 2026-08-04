@@ -2,58 +2,75 @@ const contador = document.getElementById("contador-juegos");
 const contenedor = document.getElementById("contenedor-juegos");
 const buscador = document.getElementById("buscar");
 
+// ==============================
+// MOSTRAR JUEGOS
+// ==============================
 
 function mostrarJuegos(lista){
 
     contenedor.innerHTML = "";
+
     contador.textContent = `Mostrando ${lista.length} juego${lista.length !== 1 ? "s" : ""}`;
-    if(lista.length===0){
 
-    contenedor.innerHTML=`
+    if(lista.length === 0){
 
-        <div class="sin-resultados">
+        contenedor.innerHTML = `
 
-            <h2>😕</h2>
+            <div class="sin-resultados">
 
-            <h3>No encontramos juegos</h3>
+                <h2>😕</h2>
 
-            <p>Prueba otra búsqueda o selecciona otra categoría.</p>
+                <h3>No encontramos juegos</h3>
 
-            <button id="limpiarFiltros">
+                <p>Prueba otra búsqueda o selecciona otra categoría.</p>
 
-                Mostrar todos
+                <button id="limpiarFiltros">
 
-            </button>
+                    Mostrar todos
 
-        </div>
+                </button>
 
-    `;
+            </div>
 
-    document
-        .getElementById("limpiarFiltros")
-        .addEventListener("click",()=>{
+        `;
 
-            buscador.value="";
+        document
+            .getElementById("limpiarFiltros")
+            .addEventListener("click", () => {
 
-            categoriaSeleccionada="Todos";
+                buscador.value = "";
 
-            actualizarBotonActivo();
+                categoriaSeleccionada = "Todos";
 
-            aplicarFiltros();
+                actualizarBotonActivo();
 
-        });
+                aplicarFiltros();
 
-    return;
+            });
 
-}
+        return;
 
-    for(const juego of lista){
+    }
+
+    lista.forEach((juego, index) => {
+
+        const claseStock = juego.stock ? "" : "sin-stock";
+
+        const delay = index * 0.08;
 
         const tarjeta = `
 
-        <div class="card" onclick="abrirJuego(${juego.id})">
+        <div class="card ${claseStock}"
+             style="animation-delay:${delay}s"
+             onclick="abrirJuego(${juego.id})">
 
             <img src="${juego.imagen}" alt="${juego.nombre}">
+
+            ${!juego.stock ? `
+                <div class="stock-badge">
+                    Sin Stock
+                </div>
+            ` : ""}
 
             <div class="card-body">
 
@@ -72,7 +89,9 @@ function mostrarJuegos(lista){
                 </div>
 
                 <button class="btn-info">
+
                     Ver información
+
                 </button>
 
             </div>
@@ -81,36 +100,46 @@ function mostrarJuegos(lista){
 
         `;
 
-        const delay = lista.indexOf(juego) * 0.08;
+        contenedor.innerHTML += tarjeta;
 
-contenedor.innerHTML += tarjeta.replace(
-    '<div class="card"',
-    `<div class="card" style="animation-delay:${delay}s"`
-);
-
-    }
+    });
 
 }
+
+// ==============================
+// ORDENAR ALFABÉTICAMENTE
+// ==============================
+
 const juegosOrdenados = [...juegos].sort((a, b) =>
     a.nombre.localeCompare(b.nombre, "es")
 );
 
 mostrarJuegos(juegosOrdenados);
-function abrirJuego(id) {
+
+// ==============================
+// ABRIR JUEGO
+// ==============================
+
+function abrirJuego(id){
+
     window.location.href = `juego.html?id=${id}`;
+
 }
+
 // ==============================
 // BUSCADOR
 // ==============================
 
 buscador.addEventListener("input", aplicarFiltros);
+
 // ==============================
-// FILTRO POR CATEGORÍA
+// CATEGORÍAS
 // ==============================
 
 const botonesCategorias = document.querySelectorAll(".categorias-grid button");
 
 let categoriaSeleccionada = "Todos";
+
 actualizarBotonActivo();
 
 botonesCategorias.forEach(boton => {
@@ -126,43 +155,47 @@ botonesCategorias.forEach(boton => {
     });
 
 });
+
 // ==============================
-// APLICAR FILTROS
+// FILTROS
 // ==============================
 
-function aplicarFiltros() {
+function aplicarFiltros(){
 
     const texto = buscador.value.toLowerCase();
 
     const filtrados = [...juegos]
-    .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
-    .filter(juego => {
 
-        const coincideBusqueda =
-            juego.nombre.toLowerCase().includes(texto);
+        .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
 
-        const coincideCategoria =
-            categoriaSeleccionada === "Todos" ||
-            juego.categoria === categoriaSeleccionada;
+        .filter(juego => {
 
-        return coincideBusqueda && coincideCategoria;
+            const coincideBusqueda =
+                juego.nombre.toLowerCase().includes(texto);
 
-    });
+            const coincideCategoria =
+                categoriaSeleccionada === "Todos" ||
+                juego.categoria === categoriaSeleccionada;
+
+            return coincideBusqueda && coincideCategoria;
+
+        });
 
     mostrarJuegos(filtrados);
 
 }
+
 // ==============================
 // BOTÓN ACTIVO
 // ==============================
 
 function actualizarBotonActivo(){
 
-    botonesCategorias.forEach(boton=>{
+    botonesCategorias.forEach(boton => {
 
         boton.classList.remove("activo");
 
-        if(boton.dataset.categoria===categoriaSeleccionada){
+        if(boton.dataset.categoria === categoriaSeleccionada){
 
             boton.classList.add("activo");
 

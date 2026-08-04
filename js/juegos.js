@@ -7,7 +7,7 @@ const juegos = [
     "jugadores": "2 - 5",
     "duracion": "15 min",
     "imagen": "assets/juegos/Exploding.PNG",
-
+    "stock": true,
     "descripcion": "Exploding Kittens es un divertido juego de cartas donde los jugadores roban cartas por turnos intentando evitar las temidas cartas de gato explosivo. Para sobrevivir deberán utilizar cartas especiales que permiten desactivar explosiones, evitar robos o alterar el desarrollo de la partida.",
 
     "objetivo": "Ser el último jugador que permanezca en la partida sin explotar.",
@@ -45,6 +45,7 @@ const juegos = [
     "jugadores": "2 - 5",
     "duracion": "15 min",
     "imagen": "assets/juegos/Zombie.PNG",
+    "stock": true,
 
     "descripcion": "Versión independiente de Exploding Kittens que incorpora la divertida mecánica de los zombis. Los jugadores pueden regresar a la partida gracias a cartas especiales, haciendo que las partidas sean más impredecibles y estratégicas.",
 
@@ -83,7 +84,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "20 min",
     "imagen": "assets/juegos/ghost-blitz.png",
-
+    "stock": true,
     "descripcion": "Juego de observación y velocidad donde los jugadores deben identificar rápidamente el objeto correcto según la combinación de colores mostrada en las cartas. Gana quien reaccione más rápido y consiga más cartas.",
 
     "objetivo": "Ser el jugador con mayor cantidad de cartas al finalizar la partida, reaccionando antes que los demás y tomando siempre el objeto correcto.",
@@ -116,8 +117,8 @@ const juegos = [
     "edad": "+4 años",
     "jugadores": "2 - 4",
     "duracion": "10 min",
-    "imagen": "assets/juegos/cocodrilo.PNG",
-
+    "imagen": "assets/juegos/cocodrilo.png",
+    "stock": true,
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
     "objetivo": "Evitar ser el jugador que active la mordida del cocodrilo.",
@@ -150,7 +151,7 @@ const juegos = [
     "jugadores": "2 - 10",
     "duracion": "30 min",
     "imagen": "assets/juegos/uno-flip.png",
-
+    "stock": true,
     "descripcion": "Versión del clásico UNO que incorpora un mazo con dos caras. Al jugar una carta FLIP, todas las cartas cambian de lado, modificando las reglas y aumentando el desafío durante la partida.",
 
     "objetivo": "Ser el primer jugador en quedarse sin cartas utilizando estrategia y aprovechando los cambios del mazo.",
@@ -184,6 +185,7 @@ const juegos = [
     "jugadores": "2+",
     "duracion": "15 min",
     "imagen": "assets/juegos/ahorcado.png",
+    "stock": true,
 
     "descripcion": "Juego clásico de palabras donde un jugador piensa una palabra y los demás intentan descubrirla letra por letra antes de completar el dibujo del ahorcado.",
 
@@ -220,6 +222,7 @@ const juegos = [
     "duracion": "2 min",
     "imagen": "assets/juegos/happy-salmon.png",
 
+    "stock": true,
     "descripcion": "Juego de cartas extremadamente rápido donde todos juegan al mismo tiempo realizando divertidas acciones con los demás jugadores para deshacerse de sus cartas.",
 
     "objetivo": "Ser el primer jugador en quedarse sin cartas realizando correctamente las acciones indicadas.",
@@ -253,7 +256,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/dobble.png",
-
+    "stock": true,
     "descripcion": "Juego de observación y rapidez visual donde siempre existe un único símbolo idéntico entre dos cartas. Los jugadores deben encontrarlo antes que los demás.",
 
     "objetivo": "Identificar el símbolo coincidente más rápido que el resto para conseguir la mayor cantidad de cartas.",
@@ -288,7 +291,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/taco.png",
-
+    "stock": true,
     "descripcion": "Juego de cartas rápido y caótico donde los jugadores deben reaccionar cuando la palabra dicha coincide con la carta revelada. La rapidez y la atención son fundamentales.",
 
     "objetivo": "Quedarse sin cartas antes que los demás reaccionando correctamente en cada turno.",
@@ -322,7 +325,7 @@ const juegos = [
     "jugadores": "2",
     "duracion": "15 min",
     "imagen": "assets/juegos/magnetic-battle.png",
-
+    "stock": true,
     "descripcion": "Juego de estrategia donde los jugadores colocan imanes sobre el tablero intentando evitar que estos se unan entre sí. Cada movimiento requiere precisión y planificación.",
 
     "objetivo": "Ser el primer jugador en colocar todos sus imanes sin provocar que otros se atraigan.",
@@ -357,7 +360,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "20 min",
     "imagen": "assets/juegos/monos.png",
-
+    "stock": true,
     "descripcion": "Clásico juego infantil donde los jugadores retiran varillas del árbol intentando que los monos no caigan. La precisión y el cuidado son fundamentales.",
 
     "objetivo": "Conseguir la menor cantidad de monos al finalizar la partida.",
@@ -392,7 +395,7 @@ const juegos = [
     "jugadores": "3 - 5",
     "duracion": "25 min",
     "imagen": "assets/juegos/polilla.png",
-
+    "stock": true,
     "descripcion": "Divertido juego de cartas donde hacer trampa está permitido... siempre que no te descubran. Los jugadores intentan deshacerse de sus cartas utilizando ingenio y mucha discreción.",
 
     "objetivo": "Quedarse sin cartas antes que los demás utilizando las reglas... y algunos trucos permitidos.",
@@ -427,7 +430,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "15 min",
     "imagen": "assets/juegos/pinguino.png",
-
+    "stock": true,
     "descripcion": "Juego de habilidad donde los jugadores golpean bloques de hielo intentando evitar que el pingüino caiga. Cada turno aumenta la tensión y la diversión.",
 
     "objetivo": "No ser el jugador que haga caer al pingüino.",
@@ -463,7 +466,7 @@ const juegos = [
     "jugadores": "1",
     "duracion": "Variable",
     "imagen": "assets/juegos/iq.png",
-
+    "stock": true,
     "descripcion": "Juego de lógica individual donde el jugador debe completar diferentes desafíos colocando correctamente las piezas sobre el tablero. Cada reto aumenta progresivamente su dificultad.",
 
     "objetivo": "Resolver cada desafío colocando todas las piezas en la posición correcta.",
@@ -500,7 +503,7 @@ const juegos = [
     "jugadores": "2+",
     "duracion": "20 min",
     "imagen": "assets/juegos/basta.png",
-
+    "stock": true,
     "descripcion": "Juego de palabras donde los jugadores deben completar distintas categorías utilizando una letra determinada antes que los demás. La rapidez y la creatividad son claves para ganar.",
 
     "objetivo": "Obtener la mayor cantidad de puntos respondiendo correctamente cada categoría con la letra indicada.",
