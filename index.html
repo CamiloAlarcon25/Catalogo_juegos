@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo de Juegos</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<div class="logo">
+
+🎲
+
+</div>
+
+<h1>Catálogo de Juegos</h1>
+
+<p class="subtitulo">
+
+Juegos de Mesa y Juegos Terapéuticos
+
+</p>
+
+<p class="descripcion">
+
+Descubre juegos diseñados para aprender, compartir y disfrutar momentos inolvidables.
+
+</p>
+
+<nav>
+
+<a href="#categorias">Categorías</a>
+
+<a href="#catalogo">Juegos</a>
+
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</div>
+
+<div class="hero-image">
+
+<model-viewer
+    src="assets/modelos/banner.glb"
+    auto-rotate
+    rotation-per-second="15deg"
+    camera-orbit="0deg 75deg 2.5m"
+    disable-pan
+    shadow-intensity="1"
+    exposure="1">
+</model-viewer>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="busqueda">
+
+<input
+id="buscar"
+type="text"
+placeholder="🔍 Buscar un juego...">
+
+</section>
+
+<section
+id="catalogo"
+class="catalogo">
+
+<h2>Nuestros Juegos</h2>
+
+<p id="contador-juegos"></p>
+
+<div class="categorias-grid">
+
+    <button data-categoria="Familiares">🎲 Familiares</button>
+
+    <button data-categoria="Terapéuticos">🧠 Terapéuticos</button>
+
+    <button data-categoria="Rapidez">⚡ Rapidez</button>
+
+    <button data-categoria="Estrategia">🧩 Estrategia</button>
+
+    <button data-categoria="Infantiles">👶 Infantiles</button>
+
+    <button data-categoria="Todos">🎯 Todos</button>
+
+</div>
+
+</section>
+
+<section
+id="catalogo"
+class="catalogo">
+
+<h2>Nuestros Juegos</h2>
+
+<div id="contenedor-juegos">
+
+<!-- JavaScript agregará las tarjetas -->
+
+</div>
+
+</section>
+
+<footer id="contacto">
+
+<p>
+
+© 2026 Catálogo de Juegos
+
+</p>
+
+</footer>
+
+</div>
+<script src="js/juegos.js"></script>
+<script src="js/catalogo.js"></script>
+
+</body>
+
+</html>

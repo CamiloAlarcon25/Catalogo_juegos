@@ -1,0 +1,145 @@
+.detalle img{
+
+    width:100%;
+
+    max-width:420px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+    transition:.4s;
+
+}
+.detalle img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.detalle img{
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:var(--shadow);
+
+}
+
+.info-juego{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.info-top{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+margin-top:15px;
+
+}
+
+.badge{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        #78C473
+    );
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    box-shadow:0 8px 20px rgba(95,168,91,.20);
+
+}
+
+.bloque{
+
+margin-top:35px;
+
+padding-top:20px;
+
+border-top:1px solid var(--border);
+
+}
+
+
+
+.volver{
+
+display:inline-block;
+
+margin-bottom:30px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+color:var(--primary);
+
+}
+/*============================
+
+LISTAS MODERNAS
+
+============================*/
+
+.bloque ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-top:20px;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.bloque li{
+
+    background:#F4F8F3;
+
+    color:#333;
+
+    padding:12px 18px;
+
+    border-radius:50px;
+
+    font-weight:500;
+
+    border:1px solid #E2E8E0;
+
+    transition:.3s;
+
+}
+
+.bloque li:hover{
+
+    transform:translateY(-3px);
+
+    background:var(--primary);
+
+    color:white;
+
+}
