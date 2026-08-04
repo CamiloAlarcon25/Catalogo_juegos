@@ -6,7 +6,9 @@ Aplicación web desarrollada con **HTML**, **CSS** y **JavaScript** para mostrar
 
 ## Vista previa
 
-> *(Aquí puedes agregar una captura de pantalla del catálogo cuando quieras.)*
+<p align="center">
+  <img src="Readme.PNG" width="900">
+</p>
 
 ---
 
