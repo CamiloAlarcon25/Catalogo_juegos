@@ -112,3 +112,11 @@ A través de:
 
 - 📷 Instagram
 - 📘 Facebook
+
+---
+
+# 🌐 Demo
+
+Puedes probar la aplicación directamente aquí:
+
+👉 **https://camiloalarcon25.github.io/Catalogo_juegos/**
