@@ -1,34 +1,79 @@
 const juegos = [
     {
-        "id": 1,
-        "nombre": "Exploding Kittens",
-        "categoria": "Estrategia",
-        "edad": "+7 años",
-        "jugadores": "2 - 5",
-        "duracion": "15 min",
-        "imagen": "assets/juegos/Exploding.PNG",
+    "id": 1,
+    "nombre": "Exploding Kittens",
+    "categoria": "Estrategia",
+    "edad": "+7 años",
+    "jugadores": "2 - 5",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/Exploding.PNG",
 
-        "descripcion": "Juego de cartas donde los jugadores intentan evitar robar un Exploding Kitten utilizando cartas de acción, estrategia y suerte para mantenerse con vida hasta el final.",
+    "descripcion": "Exploding Kittens es un divertido juego de cartas donde los jugadores roban cartas por turnos intentando evitar las temidas cartas de gato explosivo. Para sobrevivir deberán utilizar cartas especiales que permiten desactivar explosiones, evitar robos o alterar el desarrollo de la partida.",
 
-        "objetivo": "Ser el último jugador que permanezca en la partida sin explotar.",
+    "objetivo": "Ser el último jugador que permanezca en la partida sin explotar.",
 
-      
-    },
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Planificación",
+        "Toma de decisiones",
+        "Observación",
+        "Atención"
+    ],
+
+    "beneficios": [
+        "Favorece la planificación",
+        "Estimula el pensamiento estratégico",
+        "Mejora la toma de decisiones",
+        "Promueve la interacción social",
+        "Desarrolla la capacidad de anticipación"
+    ],
+
+    "contenido": [
+        "56 cartas ilustradas",
+        "Cartas Exploding Kitten",
+        "Cartas Defuse",
+        "Cartas de acción",
+        "Reglamento"
+    ]
+},
 
     {
-        "id": 2,
-        "nombre": "Exploding Kittens Zombies",
-        "categoria": "Estrategia",
-        "edad": "+7 años",
-        "jugadores": "2 - 5",
-        "duracion": "15 min",
-        "imagen": "assets/juegos/Zombie.PNG",
+    "id": 2,
+    "nombre": "Exploding Kittens Zombies",
+    "categoria": "Estrategia",
+    "edad": "+7 años",
+    "jugadores": "2 - 5",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/Zombie.PNG",
 
-        "descripcion": "Versión independiente de Exploding Kittens que incorpora mecánicas de zombis, permitiendo que los jugadores regresen a la partida mediante cartas especiales.",
+    "descripcion": "Versión independiente de Exploding Kittens que incorpora la divertida mecánica de los zombis. Los jugadores pueden regresar a la partida gracias a cartas especiales, haciendo que las partidas sean más impredecibles y estratégicas.",
 
-        "objetivo": "Sobrevivir a las cartas explosivas y aprovechar las cartas zombi para ser el último jugador en pie.",
+    "objetivo": "Sobrevivir a las cartas explosivas utilizando las cartas zombi y ser el último jugador en pie.",
 
-    },
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Planificación",
+        "Resolución de problemas",
+        "Observación",
+        "Toma de decisiones"
+    ],
+
+    "beneficios": [
+        "Estimula el razonamiento estratégico",
+        "Favorece la adaptación a situaciones cambiantes",
+        "Promueve la interacción social",
+        "Fortalece la planificación",
+        "Desarrolla la capacidad de reacción"
+    ],
+
+    "contenido": [
+        "61 cartas ilustradas",
+        "Cartas Zombie Kitten",
+        "Cartas Defuse",
+        "Cartas de acción",
+        "Reglamento"
+    ]
+},
 
     {
     "id": 3,
@@ -71,7 +116,7 @@ const juegos = [
     "edad": "+4 años",
     "jugadores": "2 - 4",
     "duracion": "10 min",
-    "imagen": "assets/juegos/cocodrilo.PNG",
+    "imagen": "assets/juegos/cocodrilo.png",
 
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
