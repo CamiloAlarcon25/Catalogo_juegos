@@ -71,7 +71,7 @@ const juegos = [
     "edad": "+4 años",
     "jugadores": "2 - 4",
     "duracion": "10 min",
-    "imagen": "assets/juegos/cocodrilo.png",
+    "imagen": "assets/juegos/cocodrilo.PNG",
 
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
