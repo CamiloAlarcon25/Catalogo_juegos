@@ -322,6 +322,7 @@ ANIMACIÓN TARJETAS
 
 .card{
 
+    position:relative;
     opacity:0;
 
     transform:translateY(25px);
@@ -345,5 +346,33 @@ ANIMACIÓN TARJETAS
         transform:translateY(0);
 
     }
+
+}
+.stock-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    background:#d9534f;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:.85rem;
+
+    font-weight:bold;
+
+}
+.card.sin-stock img{
+
+    filter:grayscale(100%);
+
+    opacity:.65;
 
 }

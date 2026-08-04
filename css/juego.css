@@ -143,3 +143,57 @@ LISTAS MODERNAS
     color:white;
 
 }
+.stock{
+
+    margin:25px 0;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    text-align:center;
+
+}
+
+.disponible{
+
+    background:#E8F7EA;
+
+    color:#2E7D32;
+
+}
+
+.agotado{
+
+    background:#FDECEC;
+
+    color:#C62828;
+
+}
+.contacto-juego{
+
+    margin-top:50px;
+
+    padding-top:40px;
+
+    border-top:1px solid var(--border);
+
+    text-align:center;
+
+}
+
+.contacto-juego h3{
+
+    margin-bottom:15px;
+
+}
+
+.contacto-juego p{
+
+    margin-bottom:30px;
+
+    line-height:1.7;
+
+}

@@ -1,13 +1,103 @@
 footer{
 
-margin-top:80px;
+    margin-top:80px;
 
-padding-top:30px;
+    padding:60px 20px;
 
-border-top:1px solid var(--border);
+    border-top:1px solid var(--border);
 
-text-align:center;
+    text-align:center;
 
-color:var(--text-light);
+}
+
+.contacto{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.contacto h2{
+
+    margin-bottom:20px;
+
+}
+
+.contacto p{
+
+    line-height:1.8;
+
+}
+
+.texto-redes{
+
+    margin:30px 0;
+
+    font-weight:600;
+
+}
+
+.redes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.redes a{
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:50px;
+
+    background:white;
+
+    color:var(--text);
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.redes a:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.instagram:hover{
+
+    background:#E1306C;
+
+    color:white;
+
+}
+
+.facebook:hover{
+
+    background:#1877F2;
+
+    color:white;
+
+}
+
+.copyright{
+
+    margin-top:50px;
+
+    opacity:.7;
+
+    font-size:.9rem;
 
 }
