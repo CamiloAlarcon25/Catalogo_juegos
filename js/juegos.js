@@ -117,7 +117,7 @@ const juegos = [
     "edad": "+4 años",
     "jugadores": "2 - 4",
     "duracion": "10 min",
-    "imagen": "assets/juegos/cocodrilo.PNG",
+    "imagen": "assets/juegos/cocodrilo.png",
     "stock": true,
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
@@ -176,7 +176,7 @@ const juegos = [
         "Reglamento"
     ]
 },
-
+/*
 {
     "id": 16,
     "nombre": "Ahorcado",
@@ -212,7 +212,7 @@ const juegos = [
         "Reglas del juego"
     ]
 },
-
+*/
 {
     "id": 8,
     "nombre": "Happy Salmon",
@@ -316,7 +316,7 @@ const juegos = [
         "Reglamento"
     ]
 },
-
+/*
 {
     "id": 11,
     "nombre": "Magnetic Battle",
@@ -351,7 +351,8 @@ const juegos = [
         "Bolsa de transporte"
     ]
 },
-
+*/
+/*
 {
     "id": 12,
     "nombre": "Monos Locos",
@@ -386,7 +387,7 @@ const juegos = [
         "Reglamento"
     ]
 },
-
+*/
 {
     "id": 13,
     "nombre": "Polilla Tramposa",
@@ -421,7 +422,7 @@ const juegos = [
         "Reglamento"
     ]
 },
-
+/*
 {
     "id": 14,
     "nombre": "The Penguin Ice Block",
@@ -457,7 +458,7 @@ const juegos = [
         "Ruleta"
     ]
 },
-
+*/
 {
     "id": 15,
     "nombre": "IQ Fit Rompecabezas",
@@ -494,7 +495,7 @@ const juegos = [
         "Libro de retos"
     ]
 },
-
+/*
 {
     "id": 17,
     "nombre": "Basta",
@@ -530,6 +531,148 @@ const juegos = [
         "Abecedario",
         "Reglamento"
     ]
-}
+},
+*/
+{
+    "id": 18,
+    "nombre": "Box 1 - The Penguin Ice Block + Desenredando Cuerdas",
+    "categoria": "Familiares",
+    "edad": "+6 años",
+    "jugadores": "2 - 4",
+    "duracion": "15 - 20 min",
+    "imagen": "assets/juegos/Box1.jpg",
+    "stock": true,
+
+    "descripcion": "Un box pensado para compartir y disfrutar en familia. Combina el juego The Penguin Ice Block con Desenredando Cuerdas, ofreciendo dos desafíos diferentes que ponen a prueba la habilidad, coordinación y concentración.",
+
+    "objetivo": "Disfrutar de dos juegos diferentes y superar sus desafíos utilizando coordinación, habilidad y concentración.",
+
+    "habilidades": [
+        "Coordinación",
+        "Motricidad fina",
+        "Concentración",
+        "Resolución de problemas",
+        "Habilidad manual"
+    ],
+
+     "beneficios": [
+        "Desarrolla la coordinación ojo-mano",
+        "Favorece la paciencia",
+        "Estimula el control motor",
+        "Promueve la interacción familiar"
+    ],
+
+    "contenido": [
+        "The Penguin Ice Block",
+        "Desenredando Cuerdas"
+    ]
+},
+{
+    "id": 19,
+    "nombre": "Box 2 - Basta + Ahorcado",
+    "categoria": "Familiares",
+    "edad": "+7 años",
+    "jugadores": "2 - 6",
+    "duracion": "15 - 30 min",
+    "imagen": "assets/juegos/Box2.jpg",
+    "stock": true,
+
+    "descripcion": "Un box que reúne dos juegos clásicos de palabras para disfrutar en familia o con amigos. Incluye Basta y Ahorcado, combinando rapidez mental, vocabulario y creatividad en partidas entretenidas y fáciles de aprender.",
+
+    "objetivo": "Poner a prueba el vocabulario, la rapidez mental y la capacidad de encontrar palabras para superar los desafíos de ambos juegos.",
+
+    "habilidades": [
+        "Vocabulario",
+        "Rapidez mental",
+        "Memoria",
+        "Concentración",
+        "Creatividad"
+    ],
+
+    "beneficios": [
+        "Enriquece el vocabulario",
+        "Estimula la rapidez de pensamiento",
+        "Favorece la memoria semántica",
+        "Promueve la creatividad",
+        "Fortalece la comunicación"
+    ],
+
+    "contenido": [
+        "Juego Basta",
+        "Juego Ahorcado"
+    ]
+},
+{
+    "id": 20,
+    "nombre": "Box 3 - Basta + Magnetic Battle",
+    "categoria": "Familiares",
+    "edad": "+7 años",
+    "jugadores": "2 - 6",
+    "duracion": "15 - 30 min",
+    "imagen": "assets/juegos/Box3.jpg",
+    "stock": true,
+
+    "descripcion": "Un box que combina el clásico juego de palabras Basta con el desafío de estrategia y habilidad de Magnetic Battle. Una combinación ideal para poner a prueba la rapidez mental, la concentración y la capacidad de tomar decisiones.",
+
+    "objetivo": "Disfrutar de dos desafíos diferentes que combinan rapidez mental, estrategia y habilidad.",
+
+    "habilidades": [
+        "Rapidez mental",
+        "Concentración",
+        "Pensamiento estratégico",
+        "Toma de decisiones",
+        "Habilidad"
+    ],
+
+        "beneficios": [
+        "Enriquece el vocabulario",
+        "Estimula la rapidez de pensamiento",
+        "Favorece la memoria semántica",
+        "Estimula el razonamiento lógico",
+        "Favorece la paciencia",
+        "Mejora el control de impulsos",
+    ],
+
+    "contenido": [
+        "Juego Basta",
+        "Juego Magnetic Battle"
+    ]
+},
+
+{
+    "id": 21,
+    "nombre": "Box 4 - Magnetic Battle y Monos Locos",
+    "categoria": "Estrategia e Infantiles",
+    "edad": "+5 a 9 años",
+    "jugadores": "2 - 4",
+    "duracion": "15 - 20 min",
+    "imagen": "assets/juegos/Box4.jpg",
+    "stock": true,
+    "descripcion": "Pack que combina dos divertidos juegos de habilidad y precisión: 'Magnetic Battle', un reto estratégico con imanes que no deben unirse, y 'Monos Locos', el clásico juego infantil donde debes retirar varillas sin dejar caer a los monos.",
+    
+    "objetivo": "Superar ambos retos: colocar todos los imanes sin que se atraigan entre sí y conseguir la menor cantidad de monos al finalizar la partida.",
+
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Planificación",
+        "Motricidad fina",
+        "Concentración",
+        "Resolución de problemas",
+        "Coordinación ojo-mano",
+        "Paciencia"
+    ],
+
+    "beneficios": [
+        "Estimula el razonamiento lógico",
+        "Favorece la paciencia y el desarrollo motriz",
+        "Mejora el control de impulsos y la coordinación",
+        "Fortalece la planificación y promueve el juego en familia"
+    ],
+
+    "contenido": [
+        "Juego Magnetic Battle",
+        "Juego Monos Locos"
+    ]
+},
     
 ];
