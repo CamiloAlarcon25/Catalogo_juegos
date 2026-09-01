@@ -7,7 +7,7 @@ const juegos = [
     "jugadores": "2 - 5",
     "duracion": "15 min",
     "imagen": "assets/juegos/Exploding.PNG",
-    "stock": false,
+    "stock": true,
     "descripcion": "Exploding Kittens es un divertido juego de cartas donde los jugadores roban cartas por turnos intentando evitar las temidas cartas de gato explosivo. Para sobrevivir deberán utilizar cartas especiales que permiten desactivar explosiones, evitar robos o alterar el desarrollo de la partida.",
 
     "objetivo": "Ser el último jugador que permanezca en la partida sin explotar.",
@@ -84,7 +84,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "20 min",
     "imagen": "assets/juegos/ghost-blitz.png",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de observación y velocidad donde los jugadores deben identificar rápidamente el objeto correcto según la combinación de colores mostrada en las cartas. Gana quien reaccione más rápido y consiga más cartas.",
 
     "objetivo": "Ser el jugador con mayor cantidad de cartas al finalizar la partida, reaccionando antes que los demás y tomando siempre el objeto correcto.",
@@ -118,7 +118,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "10 min",
     "imagen": "assets/juegos/cocodrilo.PNG",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
     "objetivo": "Evitar ser el jugador que active la mordida del cocodrilo.",
@@ -222,7 +222,7 @@ const juegos = [
     "duracion": "2 min",
     "imagen": "assets/juegos/happy-salmon.png",
 
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de cartas extremadamente rápido donde todos juegan al mismo tiempo realizando divertidas acciones con los demás jugadores para deshacerse de sus cartas.",
 
     "objetivo": "Ser el primer jugador en quedarse sin cartas realizando correctamente las acciones indicadas.",
@@ -291,7 +291,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/taco.png",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de cartas rápido y caótico donde los jugadores deben reaccionar cuando la palabra dicha coincide con la carta revelada. La rapidez y la atención son fundamentales.",
 
     "objetivo": "Quedarse sin cartas antes que los demás reaccionando correctamente en cada turno.",
@@ -541,7 +541,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "15 - 20 min",
     "imagen": "assets/juegos/Box1.jpg",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Un box pensado para compartir y disfrutar en familia. Combina el juego The Penguin Ice Block con Desenredando Cuerdas, ofreciendo dos desafíos diferentes que ponen a prueba la habilidad, coordinación y concentración.",
 
@@ -610,7 +610,7 @@ const juegos = [
     "jugadores": "2 - 6",
     "duracion": "15 - 30 min",
     "imagen": "assets/juegos/Box3.jpg",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Un box que combina el clásico juego de palabras Basta con el desafío de estrategia y habilidad de Magnetic Battle. Una combinación ideal para poner a prueba la rapidez mental, la concentración y la capacidad de tomar decisiones.",
 
