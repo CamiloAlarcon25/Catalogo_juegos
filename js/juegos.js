@@ -711,7 +711,7 @@ const juegos = [
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/jugueteria/rumi.JPG",
+    "imagen": "assets/juegos/rumi.JPG",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
@@ -736,7 +736,7 @@ const juegos = [
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/jugueteria/mira.JPG",
+    "imagen": "assets/juegos/mira.JPG",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
@@ -761,7 +761,7 @@ const juegos = [
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/jugueteria/zoey.JPG",
+    "imagen": "assets/juegos/zoey.JPG",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
