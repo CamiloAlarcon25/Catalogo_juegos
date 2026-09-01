@@ -704,4 +704,79 @@ const juegos = [
     ]
 },
 
+    {
+    "id": 23,
+    "nombre": "Figura Articulada Rumi - KPop Demon Hunters",
+    "categoria": "Juguetería",
+    "edad": "+6 años",
+    "jugadores": "N/A",
+    "duracion": "N/A",
+    "imagen": "assets/jugueteria/rumi.JPG",
+    "stock": true,
+
+    "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
+
+    "objetivo": "Disfrutar y coleccionar una figura inspirada en el universo de KPop Demon Hunters.",
+
+    "habilidades": [
+        "Imaginación",
+        "Juego simbólico",
+        "Creatividad"
+    ],
+
+    "contenido": [
+        "1 figura articulada de Rumi"
+    ]
+},
+
+    {
+    "id": 24,
+    "nombre": "Figura Articulada Mira - KPop Demon Hunters",
+    "categoria": "Juguetería",
+    "edad": "+6 años",
+    "jugadores": "N/A",
+    "duracion": "N/A",
+    "imagen": "assets/jugueteria/mira.JPG",
+    "stock": true,
+
+    "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
+
+    "objetivo": "Disfrutar y coleccionar una figura inspirada en el universo de KPop Demon Hunters.",
+
+    "habilidades": [
+        "Imaginación",
+        "Juego simbólico",
+        "Creatividad"
+    ],
+
+    "contenido": [
+        "1 figura articulada de Mira"
+    ]
+},
+
+    {
+    "id": 25,
+    "nombre": "Figura Articulada Zoey - KPop Demon Hunters",
+    "categoria": "Juguetería",
+    "edad": "+6 años",
+    "jugadores": "N/A",
+    "duracion": "N/A",
+    "imagen": "assets/jugueteria/zoey.JPG",
+    "stock": true,
+
+    "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
+
+    "objetivo": "Disfrutar y coleccionar una figura inspirada en el universo de KPop Demon Hunters.",
+
+    "habilidades": [
+        "Imaginación",
+        "Juego simbólico",
+        "Creatividad"
+    ],
+
+    "contenido": [
+        "1 figura articulada de Zoey"
+    ]
+},
+    
     ];
