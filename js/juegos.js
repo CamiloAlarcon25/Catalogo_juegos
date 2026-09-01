@@ -676,3 +676,32 @@ const juegos = [
 },
     
 ];
+
+{
+    "id": 22,
+    "nombre": "Promo Virus + Virus! 2 + Virus! Halloween",
+    "categoria": "Familiares",
+    "edad": "+8 años",
+    "jugadores": "2 - 6",
+    "duracion": "20 min",
+    "imagen": "assets/juegos/Promo_Virus.JPG",
+    "stock": true,
+
+    "descripcion": "Promoción especial que reúne el juego Virus! junto con sus dos extensiones: Virus! 2 y Virus! Halloween. Una colección ideal para ampliar las partidas y disfrutar de nuevas cartas, situaciones y desafíos.",
+
+    "objetivo": "Conseguir la mejor combinación de órganos y medicinas mientras utilizas las cartas disponibles para protegerte y dificultar el avance de tus oponentes.",
+
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Toma de decisiones",
+        "Atención",
+        "Planificación",
+        "Interacción social"
+    ],
+
+    "contenido": [
+        "Virus!",
+        "Virus! 2",
+        "Virus! Halloween"
+    ]
+},
