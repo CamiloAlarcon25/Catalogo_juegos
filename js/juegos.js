@@ -793,7 +793,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/globo.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Juego de rapidez y habilidad en el que los jugadores deben reaccionar rápidamente para superar el desafío y evitar ser quienes hagan revienta el globo.",
 
