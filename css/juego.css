@@ -197,3 +197,12 @@ LISTAS MODERNAS
     line-height:1.7;
 
 }
+#stock.disponible {
+    background: #dff5e5;
+    color: #218838;
+}
+
+#stock.sin-stock {
+    background: #eeeeee;
+    color: #666;
+}

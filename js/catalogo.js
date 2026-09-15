@@ -174,8 +174,10 @@ function aplicarFiltros(){
                 juego.nombre.toLowerCase().includes(texto);
 
             const coincideCategoria =
-                categoriaSeleccionada === "Todos" ||
-                juego.categoria === categoriaSeleccionada;
+            categoriaSeleccionada === "Todos" ||
+            juego.categoria === categoriaSeleccionada ||
+            (categoriaSeleccionada === "Disponibles" && juego.stock === true) ||
+            (categoriaSeleccionada === "Sin Stock" && juego.stock === false);
 
             return coincideBusqueda && coincideCategoria;
 

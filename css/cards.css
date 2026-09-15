@@ -142,15 +142,12 @@ TARJETAS
 
 
 
-.card img{
-
-    transition:.4s;
-    width:100%;
-
-    height:220px;
-
-    object-fit:cover;
-
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .card:hover img{

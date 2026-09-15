@@ -6,7 +6,7 @@ const juegos = [
     "edad": "+7 años",
     "jugadores": "2 - 5",
     "duracion": "15 min",
-    "imagen": "assets/juegos/Exploding.PNG",
+    "imagen": "assets/juegos/exploding.png",
     "stock": false,
     "descripcion": "Exploding Kittens es un divertido juego de cartas donde los jugadores roban cartas por turnos intentando evitar las temidas cartas de gato explosivo. Para sobrevivir deberán utilizar cartas especiales que permiten desactivar explosiones, evitar robos o alterar el desarrollo de la partida.",
 
@@ -44,7 +44,7 @@ const juegos = [
     "edad": "+7 años",
     "jugadores": "2 - 5",
     "duracion": "15 min",
-    "imagen": "assets/juegos/Zombie.PNG",
+    "imagen": "assets/juegos/zombies.png",
     "stock": true,
 
     "descripcion": "Versión independiente de Exploding Kittens que incorpora la divertida mecánica de los zombis. Los jugadores pueden regresar a la partida gracias a cartas especiales, haciendo que las partidas sean más impredecibles y estratégicas.",
@@ -77,13 +77,13 @@ const juegos = [
 },
 
     {
-    "id": 3,
+    "id": 4,
     "nombre": "Ghost Blitz",
     "categoria": "Rapidez",
     "edad": "+8 años",
     "jugadores": "2 - 8",
     "duracion": "20 min",
-    "imagen": "assets/juegos/ghost-blitz.png",
+    "imagen": "assets/juegos/ghost.png",
     "stock": false,
     "descripcion": "Juego de observación y velocidad donde los jugadores deben identificar rápidamente el objeto correcto según la combinación de colores mostrada en las cartas. Gana quien reaccione más rápido y consiga más cartas.",
 
@@ -111,13 +111,13 @@ const juegos = [
     ]
 },
 {
-    "id": 4,
+    "id": 3,
     "nombre": "Cocodrilo Dentista",
     "categoria": "Infantiles",
     "edad": "+4 años",
     "jugadores": "2 - 4",
     "duracion": "10 min",
-    "imagen": "assets/juegos/cocodrilo.PNG",
+    "imagen": "assets/juegos/cocodrilo.png",
     "stock": false,
     "descripcion": "Juego de suspenso y diversión donde los jugadores presionan los dientes del cocodrilo por turnos. Uno de ellos activará la mordida sorpresa, generando risas y emoción en cada partida.",
 
@@ -144,13 +144,13 @@ const juegos = [
 },
 
 {
-    "id": 6,
+    "id": 5,
     "nombre": "Uno Flip",
     "categoria": "Familiares",
     "edad": "+7 años",
     "jugadores": "2 - 10",
     "duracion": "30 min",
-    "imagen": "assets/juegos/uno-flip.png",
+    "imagen": "assets/juegos/flip.png",
     "stock": true,
     "descripcion": "Versión del clásico UNO que incorpora un mazo con dos caras. Al jugar una carta FLIP, todas las cartas cambian de lado, modificando las reglas y aumentando el desafío durante la partida.",
 
@@ -176,9 +176,9 @@ const juegos = [
         "Reglamento"
     ]
 },
-/*
+
 {
-    "id": 16,
+    "id": 6,
     "nombre": "Ahorcado",
     "categoria": "Educativos",
     "edad": "+6 años",
@@ -212,15 +212,15 @@ const juegos = [
         "Reglas del juego"
     ]
 },
-*/
+
 {
-    "id": 8,
+    "id": 7,
     "nombre": "Happy Salmon",
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "3 - 8",
     "duracion": "2 min",
-    "imagen": "assets/juegos/happy-salmon.png",
+    "imagen": "assets/juegos/happy.png",
 
     "stock": false,
     "descripcion": "Juego de cartas extremadamente rápido donde todos juegan al mismo tiempo realizando divertidas acciones con los demás jugadores para deshacerse de sus cartas.",
@@ -249,14 +249,14 @@ const juegos = [
 },
 
 {
-    "id": 9,
+    "id": 8,
     "nombre": "Dobble",
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/dobble.png",
-    "stock": true,
+    "stock": false,
     "descripcion": "Juego de observación y rapidez visual donde siempre existe un único símbolo idéntico entre dos cartas. Los jugadores deben encontrarlo antes que los demás.",
 
     "objetivo": "Identificar el símbolo coincidente más rápido que el resto para conseguir la mayor cantidad de cartas.",
@@ -284,7 +284,7 @@ const juegos = [
 },
 
 {
-    "id": 10,
+    "id": 9,
     "nombre": "Taco Gato Cabra Queso Pizza",
     "categoria": "Rapidez",
     "edad": "+8 años",
@@ -316,15 +316,15 @@ const juegos = [
         "Reglamento"
     ]
 },
-/*
+
 {
-    "id": 11,
+    "id": 10,
     "nombre": "Magnetic Battle",
     "categoria": "Estrategia",
     "edad": "+9 años",
     "jugadores": "2",
     "duracion": "15 min",
-    "imagen": "assets/juegos/magnetic-battle.png",
+    "imagen": "assets/juegos/magnetic.png",
     "stock": true,
     "descripcion": "Juego de estrategia donde los jugadores colocan imanes sobre el tablero intentando evitar que estos se unan entre sí. Cada movimiento requiere precisión y planificación.",
 
@@ -351,10 +351,10 @@ const juegos = [
         "Bolsa de transporte"
     ]
 },
-*/
-/*
+
+
 {
-    "id": 12,
+    "id": 11,
     "nombre": "Monos Locos",
     "categoria": "Infantiles",
     "edad": "+5 años",
@@ -387,9 +387,9 @@ const juegos = [
         "Reglamento"
     ]
 },
-*/
+
 {
-    "id": 13,
+    "id": 12,
     "nombre": "Polilla Tramposa",
     "categoria": "Familiares",
     "edad": "+8 años",
@@ -422,9 +422,9 @@ const juegos = [
         "Reglamento"
     ]
 },
-/*
+
 {
-    "id": 14,
+    "id": 13,
     "nombre": "The Penguin Ice Block",
     "categoria": "Infantiles",
     "edad": "+3 años",
@@ -458,16 +458,16 @@ const juegos = [
         "Ruleta"
     ]
 },
-*/
+
 {
-    "id": 15,
+    "id": 14,
     "nombre": "IQ Fit Rompecabezas",
     "categoria": "Rompecabezas",
     "edad": "+6 años",
     "jugadores": "1",
     "duracion": "Variable",
-    "imagen": "assets/juegos/iq.png",
-    "stock": true,
+    "imagen": "assets/juegos/iqfit.png",
+    "stock": false,
     "descripcion": "Juego de lógica individual donde el jugador debe completar diferentes desafíos colocando correctamente las piezas sobre el tablero. Cada reto aumenta progresivamente su dificultad.",
 
     "objetivo": "Resolver cada desafío colocando todas las piezas en la posición correcta.",
@@ -495,9 +495,9 @@ const juegos = [
         "Libro de retos"
     ]
 },
-/*
+
 {
-    "id": 17,
+    "id": 16,
     "nombre": "Basta",
     "categoria": "Familiares",
     "edad": "+8 años",
@@ -532,7 +532,8 @@ const juegos = [
         "Reglamento"
     ]
 },
-*/
+
+/*
 {
     "id": 18,
     "nombre": "Box 1 - The Penguin Ice Block + Desenredando Cuerdas",
@@ -567,6 +568,8 @@ const juegos = [
         "Desenredando Cuerdas"
     ]
 },
+*/
+/*
 {
     "id": 19,
     "nombre": "Box 2 - Basta + Ahorcado",
@@ -602,6 +605,8 @@ const juegos = [
         "Juego Ahorcado"
     ]
 },
+*/
+/*
 {
     "id": 20,
     "nombre": "Box 3 - Basta + Magnetic Battle",
@@ -638,7 +643,8 @@ const juegos = [
         "Juego Magnetic Battle"
     ]
 },
-
+*/
+/*
 {
     "id": 21,
     "nombre": "Box 4 - Magnetic Battle y Monos Locos",
@@ -674,16 +680,16 @@ const juegos = [
         "Juego Monos Locos"
     ]
 },
-    
+  */  
 {
-    "id": 22,
+    "id": 20,
     "nombre": "Promo Virus + Virus! 2 + Virus! Halloween",
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "2 - 6",
     "duracion": "20 min",
-    "imagen": "assets/juegos/Promo_Virus.JPG",
-    "stock": true,
+    "imagen": "assets/juegos/virus_promo.png",
+    "stock": false,
 
     "descripcion": "Promoción especial que reúne el juego Virus! junto con sus dos extensiones: Virus! 2 y Virus! Halloween. Una colección ideal para ampliar las partidas y disfrutar de nuevas cartas, situaciones y desafíos.",
 
@@ -705,13 +711,13 @@ const juegos = [
 },
 
     {
-    "id": 23,
+    "id": 19,
     "nombre": "Figura Articulada Rumi - KPop Demon Hunters",
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/juegos/rumi.JPG",
+    "imagen": "assets/juegos/rumi.png",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
@@ -730,13 +736,13 @@ const juegos = [
 },
 
     {
-    "id": 24,
+    "id": 18,
     "nombre": "Figura Articulada Mira - KPop Demon Hunters",
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/juegos/mira.JPG",
+    "imagen": "assets/juegos/mira.png",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
@@ -755,13 +761,13 @@ const juegos = [
 },
 
     {
-    "id": 25,
+    "id": 17,
     "nombre": "Figura Articulada Zoey - KPop Demon Hunters",
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
     "duracion": "N/A",
-    "imagen": "assets/juegos/zoey.JPG",
+    "imagen": "assets/juegos/zoey.png",
     "stock": true,
 
     "descripcion": "Figura articulada inspirada en Rumi, una de las protagonistas de KPop Demon Hunters.",
@@ -778,5 +784,241 @@ const juegos = [
         "1 figura articulada de Zoey"
     ]
 },
-    
+
+{
+    "id": 23,
+    "nombre": "Revienta el Globo",
+    "categoria": "Rapidez",
+    "edad": "+6 años",
+    "jugadores": "2 - 4",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/globo.png",
+    "stock": false,
+
+    "descripcion": "Juego de rapidez y habilidad en el que los jugadores deben reaccionar rápidamente para superar el desafío y evitar ser quienes hagan revienta el globo.",
+
+    "objetivo": "Poner a prueba la rapidez, concentración y capacidad de reacción.",
+
+    "habilidades": [
+        "Rapidez de reacción",
+        "Concentración",
+        "Coordinación",
+        "Atención"
+    ],
+
+    "contenido": [
+        "Juego Revienta el Globo"
+    ]
+},
+
+{
+    "id": 24,
+    "nombre": "Stacking Game",
+    "categoria": "Habilidad",
+    "edad": "+6 años",
+    "jugadores": "2 - 4",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/stacking.png",
+    "stock": false,
+
+    "descripcion": "Juego de habilidad y equilibrio en el que los jugadores deben apilar las piezas correctamente sin derribar la estructura.",
+
+    "objetivo": "Construir y mantener la estructura utilizando precisión, equilibrio y coordinación.",
+
+    "habilidades": [
+        "Coordinación",
+        "Motricidad fina",
+        "Concentración",
+        "Precisión",
+        "Equilibrio"
+    ],
+
+    "contenido": [
+        "Piezas del juego Stacking Game"
+    ]
+},
+
+{
+    "id": 25,
+    "nombre": "Dobble Pokémon",
+    "categoria": "Rapidez",
+    "edad": "+6 años",
+    "jugadores": "2 - 8",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/pokemon.png",
+    "stock": false,
+
+    "descripcion": "Una versión de Dobble ambientada en el universo Pokémon. Un juego de observación y rapidez en el que los jugadores deben encontrar los símbolos coincidentes entre las cartas.",
+
+    "objetivo": "Ser el jugador más rápido en encontrar los símbolos coincidentes.",
+
+    "habilidades": [
+        "Atención",
+        "Rapidez visual",
+        "Concentración",
+        "Memoria"
+    ],
+
+    "contenido": [
+        "Cartas Dobble Pokémon"
+    ]
+},
+
+{
+    "id": 26,
+    "nombre": "Dobble Mario",
+    "categoria": "Rapidez",
+    "edad": "+6 años",
+    "jugadores": "2 - 8",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/mario.png",
+    "stock": false,
+
+    "descripcion": "Una versión de Dobble inspirada en el universo de Super Mario. Los jugadores deben encontrar rápidamente los símbolos que coinciden entre las cartas.",
+
+    "objetivo": "Encontrar antes que los demás jugadores los símbolos coincidentes.",
+
+    "habilidades": [
+        "Atención",
+        "Rapidez visual",
+        "Concentración",
+        "Memoria"
+    ],
+
+    "contenido": [
+        "Cartas Dobble Mario"
+    ]
+},
+
+{
+    "id": 27,
+    "nombre": "Barril Pirata",
+    "categoria": "Familiares",
+    "edad": "+5 años",
+    "jugadores": "2 - 4",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/pirata.png",
+    "stock": false,
+
+    "descripcion": "Divertido juego de habilidad y suspenso en el que los jugadores deben introducir sus espadas en el barril sin hacer saltar al pirata.",
+
+    "objetivo": "Introducir las espadas en el barril y evitar activar el mecanismo que hace saltar al pirata.",
+
+    "habilidades": [
+        "Concentración",
+        "Coordinación",
+        "Motricidad fina",
+        "Atención"
+    ],
+
+    "contenido": [
+        "Barril Pirata",
+        "Espadas"
+    ]
+},
+
+{
+    "id": 28,
+    "nombre": "Cubo Magnético 100 Minecraft",
+    "categoria": "Juguetería",
+    "edad": "+6 años",
+    "jugadores": "1",
+    "duracion": "N/A",
+    "imagen": "assets/juegos/minecraft100.png",
+    "stock": false,
+
+    "descripcion": "Cubo magnético inspirado en Minecraft, diseñado para construir diferentes formas y estructuras mediante sus piezas magnéticas.",
+
+    "objetivo": "Crear diferentes construcciones utilizando las piezas magnéticas.",
+
+    "habilidades": [
+        "Creatividad",
+        "Motricidad fina",
+        "Concentración",
+        "Orientación espacial"
+    ],
+
+    "contenido": [
+        "100 piezas magnéticas"
+    ]
+},
+
+{
+    "id": 29,
+    "nombre": "Cubo Sorpresa Kulipa Minecraft",
+    "categoria": "Juguetería",
+    "edad": "+6 años",
+    "jugadores": "1",
+    "duracion": "N/A",
+    "imagen": "assets/juegos/kulipa.png",
+    "stock": false,
+
+    "descripcion": "Cubo sorpresa inspirado en Minecraft que contiene una figura o elemento coleccionable en su interior.",
+
+    "objetivo": "Descubrir la sorpresa incluida y disfrutar de la experiencia de colección.",
+
+    "habilidades": [
+        "Imaginación",
+        "Creatividad",
+        "Juego simbólico"
+    ],
+
+    "contenido": [
+        "1 cubo sorpresa Minecraft"
+    ]
+},
+
+{
+    "id": 30,
+    "nombre": "Equilibrio Didáctico Sapo",
+    "categoria": "Terapéuticos",
+    "edad": "+3 años",
+    "jugadores": "1 - 4",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/sapo.png",
+    "stock": false,
+
+    "descripcion": "Juego didáctico de equilibrio con temática de sapo, pensado para desarrollar la coordinación y la motricidad mediante actividades de precisión y equilibrio.",
+
+    "objetivo": "Mantener el equilibrio de las piezas y completar el desafío utilizando coordinación y precisión.",
+
+    "habilidades": [
+        "Equilibrio",
+        "Coordinación",
+        "Motricidad fina",
+        "Concentración",
+        "Precisión"
+    ],
+
+    "contenido": [
+        "Juego de equilibrio Sapo"
+    ]
+},
+{
+    "id": 15,
+    "nombre": "Desenredando Cuerdas",
+    "categoria": "Habilidad",
+    "edad": "+6 años",
+    "jugadores": "1 - 2",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/cuerdas.png",
+    "stock": false,
+
+    "descripcion": "Juego de habilidad y concentración en el que los jugadores deben resolver diferentes desafíos utilizando cuerdas y poniendo a prueba su coordinación y capacidad para encontrar soluciones.",
+
+    "objetivo": "Resolver los desafíos de las cuerdas utilizando habilidad, coordinación y razonamiento.",
+
+    "habilidades": [
+        "Motricidad fina",
+        "Coordinación",
+        "Concentración",
+        "Resolución de problemas",
+        "Paciencia"
+    ],
+
+    "contenido": [
+        "Juego Desenredando Cuerdas"
+    ]
+},    
+
     ];

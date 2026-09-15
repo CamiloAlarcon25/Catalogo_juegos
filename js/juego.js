@@ -19,6 +19,16 @@ if (!juego) {
     document.getElementById("jugadores").textContent = juego.jugadores;
     document.getElementById("duracion").textContent = juego.duracion;
 
+    const stock = document.getElementById("stock");
+
+if (juego.stock) {
+    stock.textContent = "Disponible";
+    stock.classList.add("disponible");
+} else {
+    stock.textContent = "Sin Stock";
+    stock.classList.add("sin-stock");
+}
+
     document.getElementById("descripcion").textContent = juego.descripcion;
     document.getElementById("objetivo").textContent = juego.objetivo;
 
