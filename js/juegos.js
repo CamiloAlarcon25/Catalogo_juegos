@@ -84,7 +84,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "20 min",
     "imagen": "assets/juegos/ghost.png",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de observación y velocidad donde los jugadores deben identificar rápidamente el objeto correcto según la combinación de colores mostrada en las cartas. Gana quien reaccione más rápido y consiga más cartas.",
 
     "objetivo": "Ser el jugador con mayor cantidad de cartas al finalizar la partida, reaccionando antes que los demás y tomando siempre el objeto correcto.",
@@ -467,7 +467,7 @@ const juegos = [
     "jugadores": "1",
     "duracion": "Variable",
     "imagen": "assets/juegos/iqfit.png",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de lógica individual donde el jugador debe completar diferentes desafíos colocando correctamente las piezas sobre el tablero. Cada reto aumenta progresivamente su dificultad.",
 
     "objetivo": "Resolver cada desafío colocando todas las piezas en la posición correcta.",
@@ -951,7 +951,7 @@ const juegos = [
     "jugadores": "1",
     "duracion": "N/A",
     "imagen": "assets/juegos/kulipa.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Cubo sorpresa inspirado en Minecraft que contiene una figura o elemento coleccionable en su interior.",
 
@@ -976,7 +976,7 @@ const juegos = [
     "jugadores": "1 - 4",
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/sapo.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Juego didáctico de equilibrio con temática de sapo, pensado para desarrollar la coordinación y la motricidad mediante actividades de precisión y equilibrio.",
 
