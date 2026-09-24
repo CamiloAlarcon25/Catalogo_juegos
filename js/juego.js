@@ -13,6 +13,9 @@ if (!juego) {
 
     document.getElementById("imagen").src = juego.imagen;
     document.getElementById("imagen").alt = juego.nombre;
+    if (!juego.stock) {
+    document.getElementById("imagen").classList.add("sin-stock-imagen");
+}
 
     document.getElementById("categoria").textContent = juego.categoria;
     document.getElementById("edad").textContent = juego.edad;

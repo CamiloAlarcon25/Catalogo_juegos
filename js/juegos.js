@@ -186,6 +186,7 @@ const juegos = [
     "duracion": "15 min",
     "imagen": "assets/juegos/ahorcado.png",
     "stock": true,
+    "tipoBox": "principal",
 
     "descripcion": "Juego clásico de palabras donde un jugador piensa una palabra y los demás intentan descubrirla letra por letra antes de completar el dibujo del ahorcado.",
 
@@ -222,7 +223,7 @@ const juegos = [
     "duracion": "2 min",
     "imagen": "assets/juegos/happy.png",
 
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de cartas extremadamente rápido donde todos juegan al mismo tiempo realizando divertidas acciones con los demás jugadores para deshacerse de sus cartas.",
 
     "objetivo": "Ser el primer jugador en quedarse sin cartas realizando correctamente las acciones indicadas.",
@@ -291,7 +292,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/taco.png",
-    "stock": false,
+    "stock": true,
     "descripcion": "Juego de cartas rápido y caótico donde los jugadores deben reaccionar cuando la palabra dicha coincide con la carta revelada. La rapidez y la atención son fundamentales.",
 
     "objetivo": "Quedarse sin cartas antes que los demás reaccionando correctamente en cada turno.",
@@ -326,6 +327,7 @@ const juegos = [
     "duracion": "15 min",
     "imagen": "assets/juegos/magnetic.png",
     "stock": true,
+    "tipoBox": "secundario",
     "descripcion": "Juego de estrategia donde los jugadores colocan imanes sobre el tablero intentando evitar que estos se unan entre sí. Cada movimiento requiere precisión y planificación.",
 
     "objetivo": "Ser el primer jugador en colocar todos sus imanes sin provocar que otros se atraigan.",
@@ -361,7 +363,8 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "20 min",
     "imagen": "assets/juegos/monos.png",
-    "stock": true,
+    "stock": false,
+    "tipoBox": "principal",
     "descripcion": "Clásico juego infantil donde los jugadores retiran varillas del árbol intentando que los monos no caigan. La precisión y el cuidado son fundamentales.",
 
     "objetivo": "Conseguir la menor cantidad de monos al finalizar la partida.",
@@ -432,6 +435,7 @@ const juegos = [
     "duracion": "15 min",
     "imagen": "assets/juegos/pinguino.png",
     "stock": true,
+    "tipoBox": "principal",
     "descripcion": "Juego de habilidad donde los jugadores golpean bloques de hielo intentando evitar que el pingüino caiga. Cada turno aumenta la tensión y la diversión.",
 
     "objetivo": "No ser el jugador que haga caer al pingüino.",
@@ -505,6 +509,7 @@ const juegos = [
     "duracion": "20 min",
     "imagen": "assets/juegos/basta.png",
     "stock": true,
+    "tipoBox": "secundario",
     "descripcion": "Juego de palabras donde los jugadores deben completar distintas categorías utilizando una letra determinada antes que los demás. La rapidez y la creatividad son claves para ganar.",
 
     "objetivo": "Obtener la mayor cantidad de puntos respondiendo correctamente cada categoría con la letra indicada.",
@@ -689,7 +694,7 @@ const juegos = [
     "jugadores": "2 - 6",
     "duracion": "20 min",
     "imagen": "assets/juegos/virus_promo.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Promoción especial que reúne el juego Virus! junto con sus dos extensiones: Virus! 2 y Virus! Halloween. Una colección ideal para ampliar las partidas y disfrutar de nuevas cartas, situaciones y desafíos.",
 
@@ -819,7 +824,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/stacking.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Juego de habilidad y equilibrio en el que los jugadores deben apilar las piezas correctamente sin derribar la estructura.",
 
@@ -899,6 +904,7 @@ const juegos = [
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/pirata.png",
     "stock": false,
+    /*"tipoBox": "secundario",*/
 
     "descripcion": "Divertido juego de habilidad y suspenso en el que los jugadores deben introducir sus espadas en el barril sin hacer saltar al pirata.",
 
@@ -925,7 +931,7 @@ const juegos = [
     "jugadores": "1",
     "duracion": "N/A",
     "imagen": "assets/juegos/minecraft100.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Cubo magnético inspirado en Minecraft, diseñado para construir diferentes formas y estructuras mediante sus piezas magnéticas.",
 
@@ -977,7 +983,7 @@ const juegos = [
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/sapo.png",
     "stock": true,
-
+    "tipoBox": "secundario",
     "descripcion": "Juego didáctico de equilibrio con temática de sapo, pensado para desarrollar la coordinación y la motricidad mediante actividades de precisión y equilibrio.",
 
     "objetivo": "Mantener el equilibrio de las piezas y completar el desafío utilizando coordinación y precisión.",
@@ -1003,7 +1009,7 @@ const juegos = [
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/cuerdas.png",
     "stock": false,
-
+    "tipoBox": "secundario",
     "descripcion": "Juego de habilidad y concentración en el que los jugadores deben resolver diferentes desafíos utilizando cuerdas y poniendo a prueba su coordinación y capacidad para encontrar soluciones.",
 
     "objetivo": "Resolver los desafíos de las cuerdas utilizando habilidad, coordinación y razonamiento.",

@@ -206,3 +206,6 @@ LISTAS MODERNAS
     background: #eeeeee;
     color: #666;
 }
+.sin-stock-imagen {
+    filter: grayscale(100%);
+}
