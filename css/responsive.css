@@ -63,3 +63,34 @@ padding:15px;
 }
 
 }
+@media (max-width: 768px) {
+
+    .box-secciones {
+        grid-template-columns: 1fr;
+    }
+
+    .box-juegos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        width: 100%;
+    }
+
+    .box-juego {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .box-juego img {
+        width: 100%;
+        height: 140px;
+        object-fit: contain;
+    }
+
+    .box-juego h4 {
+        font-size: 20px;
+        line-height: 1.15;
+        word-break: normal;
+    }
+}
