@@ -851,7 +851,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/pokemon.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Una versión de Dobble ambientada en el universo Pokémon. Un juego de observación y rapidez en el que los jugadores deben encontrar los símbolos coincidentes entre las cartas.",
 
@@ -877,7 +877,7 @@ const juegos = [
     "jugadores": "2 - 8",
     "duracion": "15 min",
     "imagen": "assets/juegos/mario.png",
-    "stock": false,
+    "stock": true,
 
     "descripcion": "Una versión de Dobble inspirada en el universo de Super Mario. Los jugadores deben encontrar rápidamente los símbolos que coinciden entre las cartas.",
 
@@ -903,7 +903,7 @@ const juegos = [
     "jugadores": "2 - 4",
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/pirata.png",
-    "stock": false,
+    "stock": true,
     /*"tipoBox": "secundario",*/
 
     "descripcion": "Divertido juego de habilidad y suspenso en el que los jugadores deben introducir sus espadas en el barril sin hacer saltar al pirata.",
