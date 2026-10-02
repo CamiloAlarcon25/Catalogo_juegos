@@ -65,10 +65,6 @@ padding:15px;
 }
 @media (max-width: 768px) {
 
-    .box-secciones {
-        grid-template-columns: 1fr;
-    }
-
     .box-juegos {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -93,4 +89,5 @@ padding:15px;
         line-height: 1.15;
         word-break: normal;
     }
+
 }

@@ -45,7 +45,7 @@ const juegos = [
     "jugadores": "2 - 5",
     "duracion": "15 min",
     "imagen": "assets/juegos/zombies.png",
-    "stock": true,
+    "stock": false,
 
     "descripcion": "Versión independiente de Exploding Kittens que incorpora la divertida mecánica de los zombis. Los jugadores pueden regresar a la partida gracias a cartas especiales, haciendo que las partidas sean más impredecibles y estratégicas.",
 
@@ -151,7 +151,7 @@ const juegos = [
     "jugadores": "2 - 10",
     "duracion": "30 min",
     "imagen": "assets/juegos/flip.png",
-    "stock": true,
+    "stock": false,
     "descripcion": "Versión del clásico UNO que incorpora un mazo con dos caras. Al jugar una carta FLIP, todas las cartas cambian de lado, modificando las reglas y aumentando el desafío durante la partida.",
 
     "objetivo": "Ser el primer jugador en quedarse sin cartas utilizando estrategia y aprovechando los cambios del mazo.",
@@ -187,6 +187,7 @@ const juegos = [
     "imagen": "assets/juegos/ahorcado.png",
     "stock": true,
     "tipoBox": "principal",
+    "box": true,
 
     "descripcion": "Juego clásico de palabras donde un jugador piensa una palabra y los demás intentan descubrirla letra por letra antes de completar el dibujo del ahorcado.",
 
@@ -328,6 +329,7 @@ const juegos = [
     "imagen": "assets/juegos/magnetic.png",
     "stock": true,
     "tipoBox": "secundario",
+    "box": true,
     "descripcion": "Juego de estrategia donde los jugadores colocan imanes sobre el tablero intentando evitar que estos se unan entre sí. Cada movimiento requiere precisión y planificación.",
 
     "objetivo": "Ser el primer jugador en colocar todos sus imanes sin provocar que otros se atraigan.",
@@ -365,6 +367,7 @@ const juegos = [
     "imagen": "assets/juegos/monos.png",
     "stock": false,
     "tipoBox": "principal",
+    "box": true,
     "descripcion": "Clásico juego infantil donde los jugadores retiran varillas del árbol intentando que los monos no caigan. La precisión y el cuidado son fundamentales.",
 
     "objetivo": "Conseguir la menor cantidad de monos al finalizar la partida.",
@@ -436,6 +439,7 @@ const juegos = [
     "imagen": "assets/juegos/pinguino.png",
     "stock": true,
     "tipoBox": "principal",
+    "box": true,
     "descripcion": "Juego de habilidad donde los jugadores golpean bloques de hielo intentando evitar que el pingüino caiga. Cada turno aumenta la tensión y la diversión.",
 
     "objetivo": "No ser el jugador que haga caer al pingüino.",
@@ -509,6 +513,7 @@ const juegos = [
     "duracion": "20 min",
     "imagen": "assets/juegos/basta.png",
     "stock": true,
+    "box": true,
     "tipoBox": "secundario",
     "descripcion": "Juego de palabras donde los jugadores deben completar distintas categorías utilizando una letra determinada antes que los demás. La rapidez y la creatividad son claves para ganar.",
 
@@ -1010,6 +1015,7 @@ const juegos = [
     "imagen": "assets/juegos/cuerdas.png",
     "stock": false,
     "tipoBox": "secundario",
+    "box": true,
     "descripcion": "Juego de habilidad y concentración en el que los jugadores deben resolver diferentes desafíos utilizando cuerdas y poniendo a prueba su coordinación y capacidad para encontrar soluciones.",
 
     "objetivo": "Resolver los desafíos de las cuerdas utilizando habilidad, coordinación y razonamiento.",
