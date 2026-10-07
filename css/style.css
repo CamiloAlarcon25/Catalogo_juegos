@@ -200,3 +200,26 @@ text-align:center;
     font-size: 12px;
     font-weight: 600;
 }
+.botones-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}

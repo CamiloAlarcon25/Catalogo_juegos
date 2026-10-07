@@ -1133,7 +1133,7 @@ const juegos = [
         "100 Cubos Magnéticos Minecraft"
     ]
 },
-    {
+{
     "id": 35,
     "nombre": "Promo Muñecas K-pop",
     "categoria": "Promociones",
