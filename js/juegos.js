@@ -1133,6 +1133,31 @@ const juegos = [
         "100 Cubos Magnéticos Minecraft"
     ]
 },
+    {
+    "id": 35,
+    "nombre": "Promo Muñecas K-pop",
+    "categoria": "Promociones",
+    "edad": "+5 años",
+    "jugadores": "1 o más",
+    "duracion": "Variable",
+    "imagen": "assets/juegos/promo_kpop.png",
+    "stock": true,
+    "box": false,
+    "descripcion": "Promoción especial de muñecas inspiradas en K-pop Demon Hunters. Incluye a Rumi, Mira y Zoey para coleccionar y disfrutar de horas de juego e imaginación.",
+    "objetivo": "Disfrutar y coleccionar las tres muñecas, creando diferentes historias y aventuras inspiradas en el universo K-pop.",
+    "habilidades": [
+        "Imaginación",
+        "Creatividad",
+        "Juego simbólico",
+        "Expresión",
+        "Interacción social"
+    ],
+    "contenido": [
+        "1 Muñeca Rumi",
+        "1 Muñeca Mira",
+        "1 Muñeca Zoey"
+    ]
+},
     ];
 
     
