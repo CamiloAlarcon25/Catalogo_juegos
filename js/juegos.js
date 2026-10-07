@@ -694,7 +694,7 @@ const juegos = [
 {
     "id": 20,
     "nombre": "Promo Virus + Virus! 2 + Virus! Halloween",
-    "categoria": "Familiares",
+    "categoria": "Promociones",
     "edad": "+8 años",
     "jugadores": "2 - 6",
     "duracion": "20 min",
@@ -1031,6 +1031,108 @@ const juegos = [
     "contenido": [
         "Juego Desenredando Cuerdas"
     ]
-},    
+},
 
+{
+    "id": 31,
+    "nombre": "Virus!",
+    "categoria": "Familiares",
+    "edad": "+8 años",
+    "jugadores": "2 - 6",
+    "duracion": "20 min",
+    "imagen": "assets/juegos/Virus.png",
+    "stock": true,
+    "box": false,
+    "descripcion": "Un divertido juego de cartas en el que tendrás que conseguir un cuerpo completamente sano mientras proteges tus órganos de los virus y de tus rivales.",
+    "objetivo": "Ser el primer jugador en conseguir cuatro órganos sanos.",
+    "habilidades": [
+        "Estrategia",
+        "Toma de decisiones",
+        "Atención",
+        "Interacción social"
+    ],
+    "contenido": [
+        "Cartas de órganos",
+        "Cartas de virus",
+        "Cartas de medicinas",
+        "Cartas de tratamientos"
+    ]
+},
+{
+    "id": 32,
+    "nombre": "Virus! 2",
+    "categoria": "Familiares",
+    "edad": "+8 años",
+    "jugadores": "2 - 6",
+    "duracion": "20 min",
+    "imagen": "assets/juegos/Virus2.png",
+    "stock": true,
+    "box": false,
+    "descripcion": "La segunda edición de Virus! incorpora nuevas cartas y situaciones que amplían la diversión y las posibilidades estratégicas del juego original.",
+    "objetivo": "Conseguir cuatro órganos sanos antes que los demás jugadores utilizando tus cartas de forma estratégica.",
+    "habilidades": [
+        "Estrategia",
+        "Toma de decisiones",
+        "Atención",
+        "Planificación"
+    ],
+    "contenido": [
+        "Cartas de juego",
+        "Cartas de órganos",
+        "Cartas de virus",
+        "Cartas de medicinas"
+    ]
+},
+{
+    "id": 33,
+    "nombre": "Virus! Halloween",
+    "categoria": "Familiares",
+    "edad": "+8 años",
+    "jugadores": "2 - 6",
+    "duracion": "20 min",
+    "imagen": "assets/juegos/Virus_hallo.png",
+    "stock": true,
+    "box": false,
+    "descripcion": "Una edición especial de Virus! ambientada en Halloween, con una temática terrorífica que añade un toque especial al clásico juego de cartas.",
+    "objetivo": "Ser el primer jugador en conseguir cuatro órganos sanos y superar a tus rivales.",
+    "habilidades": [
+        "Estrategia",
+        "Toma de decisiones",
+        "Atención",
+        "Interacción social"
+    ],
+    "contenido": [
+        "Cartas de órganos",
+        "Cartas de virus",
+        "Cartas de medicinas",
+        "Cartas de tratamientos"
+    ]
+},
+
+{
+    "id": 34,
+    "nombre": "Promo Minecraft",
+    "categoria": "Promociones",
+    "edad": "+6 años",
+    "jugadores": "1 o más",
+    "duracion": "Variable",
+    "imagen": "assets/juegos/promo_mine.png",
+    "stock": true,
+    "box": false,
+    "descripcion": "Promoción especial de Minecraft que combina un Cubo Sorpresa Kulipa con un set de 100 Cubos Magnéticos para disfrutar de la construcción y la creatividad.",
+    "objetivo": "Crear diferentes construcciones y figuras utilizando los cubos magnéticos y complementar la experiencia con el Cubo Sorpresa Kulipa.",
+    "habilidades": [
+        "Creatividad",
+        "Motricidad fina",
+        "Concentración",
+        "Imaginación",
+        "Resolución de problemas"
+    ],
+    "contenido": [
+        "1 Cubo Sorpresa Kulipa Minecraft",
+        "100 Cubos Magnéticos Minecraft"
+    ]
+},
     ];
+
+    
