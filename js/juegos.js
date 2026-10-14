@@ -1158,6 +1158,119 @@ const juegos = [
         "1 Muñeca Zoey"
     ]
 },
+{
+    "id": 37,
+    "nombre": "Sushi Go!",
+    "categoria": "Familiares",
+    "edad": "+8 años",
+    "jugadores": "2 - 5",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/sushi.png",
+    "stock": false,
+    "box": false,
+    "descripcion": "Un rápido juego de cartas en el que debes elegir platos de sushi y pasar las cartas restantes a los demás jugadores.",
+    "objetivo": "Conseguir la mayor cantidad de puntos formando combinaciones de cartas de sushi.",
+    "habilidades": [
+        "Estrategia",
+        "Planificación",
+        "Atención",
+        "Toma de decisiones"
+    ],
+    "contenido": [
+        "Cartas de sushi",
+        "Reglamento"
+    ]
+},
+{
+    "id": 39,
+    "nombre": "Dirty Pig",
+    "categoria": "Familiares",
+    "edad": "+7 años",
+    "jugadores": "2 - 4",
+    "duracion": "10 - 15 min",
+    "imagen": "assets/juegos/pig.png",
+    "stock": false,
+    "box": false,
+    "descripcion": "Un divertido juego de cartas en el que los jugadores intentan ensuciar a sus cerdos y evitar que los demás los limpien.",
+    "objetivo": "Ser el primero en conseguir que todos tus cerdos estén sucios.",
+    "habilidades": [
+        "Estrategia",
+        "Atención",
+        "Interacción social",
+        "Toma de decisiones"
+    ],
+    "contenido": [
+        "Cartas de juego",
+        "Reglamento"
+    ]
+},
+{
+    "id": 36,
+    "nombre": "Tacta",
+    "categoria": "Rapidez",
+    "edad": "+6 años",
+    "jugadores": "2 - 6",
+    "duracion": "Por confirmar",
+    "imagen": "assets/juegos/tacta.png",
+    "stock": false,
+    "box": false,
+    "descripcion": "Un juego de cartas rápido y colorido que combina observación, agilidad mental y reflejos. Los jugadores deben identificar y combinar colores mientras compiten por ser los más rápidos.",
+    "objetivo": "Combinar colores y reaccionar rápidamente para superar a los demás jugadores.",
+    "habilidades": [
+        "Agilidad mental",
+        "Atención visual",
+        "Velocidad de reacción",
+        "Reconocimiento de colores"
+    ],
+    "contenido": [
+        "1 juego de cartas"
+    ]
+},
+{
+    "id": 38,
+    "nombre": "Cards vs Gravity",
+    "categoria": "Familiares",
+    "edad": "+4 años",
+    "jugadores": "2 o más",
+    "duracion": "Por confirmar",
+    "imagen": "assets/juegos/gravity.png",
+    "stock": false,
+    "box": false,
+    "descripcion": "Un juego de cartas de Big Potato que propone un desafío de habilidad y estrategia para compartir con amigos o en familia. Su edición está en inglés.",
+    "objetivo": "Superar los desafíos del juego utilizando estrategia y habilidad.",
+    "habilidades": [
+        "Estrategia",
+        "Concentración",
+        "Atención",
+        "Interacción social"
+    ],
+    "contenido": [
+        "Cartas de juego",
+        "Caja para guardar las cartas"
+    ]
+},
+{
+    "id": 40,
+    "nombre": "Gato Electrónico",
+    "categoria": "Juguetería",
+    "edad": "+5 años",
+    "jugadores": "1 - 2",
+    "duracion": "Variable",
+    "imagen": "assets/juegos/gato.png",
+    "stock": false,
+    "box": false,
+    "descripcion": "Un juego digital portátil inspirado en el clásico tres en raya, con diferentes modos de juego para disfrutar solo o en compañía. Ideal para poner a prueba la memoria, la atención y el razonamiento.",
+    "objetivo": "Completar los desafíos de los distintos modos de juego y divertirse mientras se ejercita la mente.",
+    "habilidades": [
+        "Memoria",
+        "Razonamiento lógico",
+        "Concentración",
+        "Atención"
+    ],
+    "contenido": [
+        "1 juego electrónico de gato"
+    ]
+},
     ];
 
     
