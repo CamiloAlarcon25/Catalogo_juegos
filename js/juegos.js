@@ -402,7 +402,7 @@ const juegos = [
     "jugadores": "3 - 5",
     "duracion": "25 min",
     "imagen": "assets/juegos/polilla.png",
-    "stock": true,
+    "stock": false,
     "descripcion": "Divertido juego de cartas donde hacer trampa está permitido... siempre que no te descubran. Los jugadores intentan deshacerse de sus cartas utilizando ingenio y mucha discreción.",
 
     "objetivo": "Quedarse sin cartas antes que los demás utilizando las reglas... y algunos trucos permitidos.",
@@ -1013,7 +1013,7 @@ const juegos = [
     "jugadores": "1 - 2",
     "duracion": "10 - 15 min",
     "imagen": "assets/juegos/cuerdas.png",
-    "stock": false,
+    "stock": true,
     "tipoBox": "secundario",
     "box": true,
     "descripcion": "Juego de habilidad y concentración en el que los jugadores deben resolver diferentes desafíos utilizando cuerdas y poniendo a prueba su coordinación y capacidad para encontrar soluciones.",
