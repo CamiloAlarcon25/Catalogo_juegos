@@ -90,6 +90,13 @@ function mostrarJuegos(lista) {
 
                     <h3>${juego.nombre}</h3>
 
+${juego.precio != null ? `
+    <p class="precio">
+        $${juego.precio.toLocaleString("es-CL")}
+    </p>
+` : ""}
+
+
                     <p class="categoria">
                         ${juego.categoria}
                     </p>

@@ -2,6 +2,8 @@ const juegos = [
     {
     "id": 1,
     "nombre": "Exploding Kittens",
+    "precio": 10000,
+    "videoYoutube":"https://www.youtube.com/watch?v=2D5CvQO4k6Y&t=101s",
     "categoria": "Estrategia",
     "edad": "+7 años",
     "jugadores": "2 - 5",
@@ -40,6 +42,7 @@ const juegos = [
     {
     "id": 2,
     "nombre": "Exploding Kittens Zombies",
+    "precio": 10000,
     "categoria": "Estrategia",
     "edad": "+7 años",
     "jugadores": "2 - 5",
@@ -79,6 +82,7 @@ const juegos = [
     {
     "id": 4,
     "nombre": "Ghost Blitz",
+    "precio": 10000,
     "categoria": "Rapidez",
     "edad": "+8 años",
     "jugadores": "2 - 8",
@@ -113,6 +117,7 @@ const juegos = [
 {
     "id": 3,
     "nombre": "Cocodrilo Dentista",
+    "precio": 6000,
     "categoria": "Infantiles",
     "edad": "+4 años",
     "jugadores": "2 - 4",
@@ -146,6 +151,7 @@ const juegos = [
 {
     "id": 5,
     "nombre": "Uno Flip",
+    "precio": 6000,
     "categoria": "Familiares",
     "edad": "+7 años",
     "jugadores": "2 - 10",
@@ -180,6 +186,7 @@ const juegos = [
 {
     "id": 6,
     "nombre": "Ahorcado",
+    "precio": 10000,
     "categoria": "Educativos",
     "edad": "+6 años",
     "jugadores": "2+",
@@ -218,6 +225,7 @@ const juegos = [
 {
     "id": 7,
     "nombre": "Happy Salmon",
+    "precio": 10000,
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "3 - 8",
@@ -253,6 +261,7 @@ const juegos = [
 {
     "id": 8,
     "nombre": "Dobble",
+    "precio": 10000,
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "2 - 8",
@@ -288,6 +297,7 @@ const juegos = [
 {
     "id": 9,
     "nombre": "Taco Gato Cabra Queso Pizza",
+    "precio": 8000,
     "categoria": "Rapidez",
     "edad": "+8 años",
     "jugadores": "2 - 8",
@@ -322,6 +332,7 @@ const juegos = [
 {
     "id": 10,
     "nombre": "Magnetic Battle",
+    "precio": 10000,
     "categoria": "Estrategia",
     "edad": "+9 años",
     "jugadores": "2",
@@ -360,6 +371,7 @@ const juegos = [
 {
     "id": 11,
     "nombre": "Monos Locos",
+    "precio": 10000,
     "categoria": "Infantiles",
     "edad": "+5 años",
     "jugadores": "2 - 4",
@@ -397,6 +409,7 @@ const juegos = [
 {
     "id": 12,
     "nombre": "Polilla Tramposa",
+    "precio": 10000,
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "3 - 5",
@@ -432,6 +445,7 @@ const juegos = [
 {
     "id": 13,
     "nombre": "The Penguin Ice Block",
+    "precio": 10000,
     "categoria": "Infantiles",
     "edad": "+3 años",
     "jugadores": "2 - 4",
@@ -470,6 +484,7 @@ const juegos = [
 {
     "id": 14,
     "nombre": "IQ Fit Rompecabezas",
+    "precio": 8000,
     "categoria": "Rompecabezas",
     "edad": "+6 años",
     "jugadores": "1",
@@ -507,6 +522,7 @@ const juegos = [
 {
     "id": 16,
     "nombre": "Basta",
+    "precio": 10000,
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "2+",
@@ -694,6 +710,7 @@ const juegos = [
 {
     "id": 20,
     "nombre": "Promo Virus + Virus! 2 + Virus! Halloween",
+    "precio": 20000,
     "categoria": "Promociones",
     "edad": "+8 años",
     "jugadores": "2 - 6",
@@ -723,6 +740,7 @@ const juegos = [
     {
     "id": 19,
     "nombre": "Figura Articulada Rumi - KPop Demon Hunters",
+    "precio": 15000,
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
@@ -748,6 +766,7 @@ const juegos = [
     {
     "id": 18,
     "nombre": "Figura Articulada Mira - KPop Demon Hunters",
+    "precio": 15000,
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
@@ -773,6 +792,7 @@ const juegos = [
     {
     "id": 17,
     "nombre": "Figura Articulada Zoey - KPop Demon Hunters",
+    "precio": 15000,
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "N/A",
@@ -798,6 +818,7 @@ const juegos = [
 {
     "id": 23,
     "nombre": "Revienta el Globo",
+    "precio": 12000,
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "2 - 4",
@@ -824,6 +845,7 @@ const juegos = [
 {
     "id": 24,
     "nombre": "Stacking Game",
+    "precio": 10000,
     "categoria": "Habilidad",
     "edad": "+6 años",
     "jugadores": "2 - 4",
@@ -851,6 +873,7 @@ const juegos = [
 {
     "id": 25,
     "nombre": "Dobble Pokémon",
+    "precio": 10000,
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "2 - 8",
@@ -877,6 +900,7 @@ const juegos = [
 {
     "id": 26,
     "nombre": "Dobble Mario",
+    "precio": 10000,
     "categoria": "Rapidez",
     "edad": "+6 años",
     "jugadores": "2 - 8",
@@ -903,6 +927,7 @@ const juegos = [
 {
     "id": 27,
     "nombre": "Barril Pirata",
+    "precio": 8000,
     "categoria": "Familiares",
     "edad": "+5 años",
     "jugadores": "2 - 4",
@@ -931,6 +956,7 @@ const juegos = [
 {
     "id": 28,
     "nombre": "Cubo Magnético 100 Minecraft",
+    "precio": 12000,
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "1",
@@ -957,6 +983,7 @@ const juegos = [
 {
     "id": 29,
     "nombre": "Cubo Sorpresa Kulipa Minecraft",
+    "precio": 12000,
     "categoria": "Juguetería",
     "edad": "+6 años",
     "jugadores": "1",
@@ -982,6 +1009,7 @@ const juegos = [
 {
     "id": 30,
     "nombre": "Equilibrio Didáctico Sapo",
+    "precio": 8000,
     "categoria": "Terapéuticos",
     "edad": "+3 años",
     "jugadores": "1 - 4",
@@ -1008,6 +1036,7 @@ const juegos = [
 {
     "id": 15,
     "nombre": "Desenredando Cuerdas",
+    "precio": 10000,
     "categoria": "Habilidad",
     "edad": "+6 años",
     "jugadores": "1 - 2",
@@ -1036,6 +1065,7 @@ const juegos = [
 {
     "id": 31,
     "nombre": "Virus!",
+    "precio": 12000,
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "2 - 6",
@@ -1061,7 +1091,8 @@ const juegos = [
 {
     "id": 32,
     "nombre": "Virus! 2",
-    "categoria": "Familiares",
+    "precio": 6000,
+    "categoria": "Familiares",  
     "edad": "+8 años",
     "jugadores": "2 - 6",
     "duracion": "20 min",
@@ -1086,6 +1117,7 @@ const juegos = [
 {
     "id": 33,
     "nombre": "Virus! Halloween",
+    "precio": 6000,
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "2 - 6",
@@ -1112,6 +1144,7 @@ const juegos = [
 {
     "id": 34,
     "nombre": "Promo Minecraft",
+    "precio": 20000,
     "categoria": "Promociones",
     "edad": "+6 años",
     "jugadores": "1 o más",
@@ -1136,6 +1169,7 @@ const juegos = [
 {
     "id": 35,
     "nombre": "Promo Muñecas K-pop",
+    "precio": 40000,
     "categoria": "Promociones",
     "edad": "+5 años",
     "jugadores": "1 o más",
@@ -1161,6 +1195,7 @@ const juegos = [
 {
     "id": 37,
     "nombre": "Sushi Go!",
+    "precio": 10000,
     "categoria": "Familiares",
     "edad": "+8 años",
     "jugadores": "2 - 5",
@@ -1184,6 +1219,7 @@ const juegos = [
 {
     "id": 39,
     "nombre": "Dirty Pig",
+    "precio": 10000,
     "categoria": "Familiares",
     "edad": "+7 años",
     "jugadores": "2 - 4",
@@ -1207,7 +1243,8 @@ const juegos = [
 {
     "id": 36,
     "nombre": "Tacta",
-    "categoria": "Rapidez",
+    "precio": 8000,
+    /*"categoria": "Rapidez",*/
     "edad": "+6 años",
     "jugadores": "2 - 6",
     "duracion": "Por confirmar",
@@ -1229,12 +1266,13 @@ const juegos = [
 {
     "id": 38,
     "nombre": "Cards vs Gravity",
-    "categoria": "Familiares",
+    "precio": 12000,
+    /*"categoria": "Familiares",*/
     "edad": "+4 años",
     "jugadores": "2 o más",
     "duracion": "Por confirmar",
     "imagen": "assets/juegos/gravity.png",
-    "stock": false,
+    "stock": true,
     "box": false,
     "descripcion": "Un juego de cartas de Big Potato que propone un desafío de habilidad y estrategia para compartir con amigos o en familia. Su edición está en inglés.",
     "objetivo": "Superar los desafíos del juego utilizando estrategia y habilidad.",
@@ -1252,7 +1290,8 @@ const juegos = [
 {
     "id": 40,
     "nombre": "Gato Electrónico",
-    "categoria": "Juguetería",
+    "precio": 12000,
+    /*"categoria": "Juguetería",*/
     "edad": "+5 años",
     "jugadores": "1 - 2",
     "duracion": "Variable",
