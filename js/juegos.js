@@ -2,7 +2,7 @@ const juegos = [
     {
     "id": 1,
     "nombre": "Exploding Kittens",
-    "precio": 10000,
+    "precio": 12000,
     "videoYoutube":"https://www.youtube.com/watch?v=2D5CvQO4k6Y&t=101s",
     "categoria": "Estrategia",
     "edad": "+7 años",
@@ -42,7 +42,7 @@ const juegos = [
     {
     "id": 2,
     "nombre": "Exploding Kittens Zombies",
-    "precio": 10000,
+    "precio": 12000,
     "videoYoutube":"https://www.youtube.com/watch?v=u7GVcd8xT2E&t=150s",
     "categoria": "Estrategia",
     "edad": "+7 años",
@@ -1027,7 +1027,7 @@ const juegos = [
 {
     "id": 30,
     "nombre": "Equilibrio Didáctico Sapo",
-    "precio": 8000,
+    "precio": 10000,
     "videoYoutube": "https://www.youtube.com/watch?v=1ZppyYf-gS8",
     "categoria": "Terapéuticos",
     "edad": "+3 años",
@@ -1268,7 +1268,7 @@ const juegos = [
 {
     "id": 36,
     "nombre": "Tacta",
-    "precio": 8000,
+    "precio": 10000,
     "videoYoutube": "https://www.youtube.com/watch?v=e2a_G9gU2TY",
     "categoria": "Rapidez",
     "edad": "+6 años",
@@ -1337,6 +1337,84 @@ const juegos = [
         "1 juego electrónico de gato"
     ]
 },
+    
+{
+    "id": 41,
+    "nombre": "Exploding Kittens: El Bien contra el Mal",
+    "categoria": "Estrategia",
+    "edad": "+7 años",
+    "jugadores": "2 - 5",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/bien_mal.png",
+    "stock": false,
+    "precio": 12000,
+    "box": false,
+
+    "descripcion": "Exploding Kittens: El Bien contra el Mal lleva el clásico juego de cartas a una batalla entre dos fuerzas opuestas. Los jugadores deberán robar cartas, utilizar habilidades especiales y evitar a toda costa sacar un gatito explosivo. Esta edición incorpora nuevas cartas y una mecánica de Apocalipsis que puede cambiar el rumbo de la partida.",
+
+    "objetivo": "Ser el último jugador en permanecer en la partida, evitando los Exploding Kittens y aprovechando las cartas especiales para superar a los oponentes.",
+
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Planificación",
+        "Toma de decisiones",
+        "Observación",
+        "Atención"
+    ],
+
+    "beneficios": [
+        "Estimula el pensamiento estratégico",
+        "Favorece la planificación",
+        "Desarrolla la capacidad de anticipación",
+        "Promueve la interacción social",
+        "Fortalece la toma de decisiones"
+    ],
+
+    "contenido": [
+        "55 cartas",
+        "1 reglamento",
+        "1 tapete"
+    ]
+},
+
+{
+    "id": 42,
+    "nombre": "Exploding Kittens Adultos (NSFW)",
+    "categoria": "Estrategia",
+    "edad": "+18 años",
+    "jugadores": "2 - 5",
+    "duracion": "15 min",
+    "imagen": "assets/juegos/exploding_adultos.png",
+    "stock": false,
+    "precio": 12000,
+    "box": false,
+
+    "descripcion": "Exploding Kittens Adultos (NSFW) es una versión del popular juego de cartas con ilustraciones y humor irreverente dirigido exclusivamente a adultos. Los jugadores roban cartas por turnos intentando evitar los gatitos explosivos, mientras utilizan cartas especiales para protegerse, cambiar el juego y complicarles la partida a sus rivales.",
+
+    "objetivo": "Ser el último jugador que permanezca en la partida sin explotar, utilizando estratégicamente las cartas para evitar la eliminación.",
+
+    "habilidades": [
+        "Pensamiento estratégico",
+        "Planificación",
+        "Toma de decisiones",
+        "Observación",
+        "Atención"
+    ],
+
+    "beneficios": [
+        "Estimula el pensamiento estratégico",
+        "Favorece la toma de decisiones",
+        "Desarrolla la capacidad de anticipación",
+        "Promueve la interacción social",
+        "Fortalece la planificación"
+    ],
+
+    "contenido": [
+        "56 cartas",
+        "1 reglamento"
+    ]
+},
+
     ];
 
     
