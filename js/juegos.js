@@ -1348,7 +1348,6 @@ const juegos = [
     "imagen": "assets/juegos/bien_mal.png",
     "stock": false,
     "precio": 12000,
-    "videoYoutube":"https://www.youtube.com/watch?v=aIQPOSKI9YM",
     "box": false,
 
     "descripcion": "Exploding Kittens: El Bien contra el Mal lleva el clásico juego de cartas a una batalla entre dos fuerzas opuestas. Los jugadores deberán robar cartas, utilizar habilidades especiales y evitar a toda costa sacar un gatito explosivo. Esta edición incorpora nuevas cartas y una mecánica de Apocalipsis que puede cambiar el rumbo de la partida.",
@@ -1388,7 +1387,6 @@ const juegos = [
     "imagen": "assets/juegos/exploding_adultos.png",
     "stock": false,
     "precio": 12000,
-    "videoYoutube":"https://www.youtube.com/watch?v=CFngEmlZMzs",
     "box": false,
 
     "descripcion": "Exploding Kittens Adultos (NSFW) es una versión del popular juego de cartas con ilustraciones y humor irreverente dirigido exclusivamente a adultos. Los jugadores roban cartas por turnos intentando evitar los gatitos explosivos, mientras utilizan cartas especiales para protegerse, cambiar el juego y complicarles la partida a sus rivales.",
