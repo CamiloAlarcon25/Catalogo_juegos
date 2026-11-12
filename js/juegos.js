@@ -1342,6 +1342,7 @@ const juegos = [
     "id": 41,
     "nombre": "Exploding Kittens: El Bien contra el Mal",
     "categoria": "Estrategia",
+    "videoYoutube":"https://www.youtube.com/watch?v=aIQPOSKI9YM"
     "edad": "+7 años",
     "jugadores": "2 - 5",
     "duracion": "15 min",
@@ -1381,6 +1382,7 @@ const juegos = [
     "id": 42,
     "nombre": "Exploding Kittens Adultos (NSFW)",
     "categoria": "Estrategia",
+    "videoYoutube":"https://www.youtube.com/watch?v=CFngEmlZMzs",
     "edad": "+18 años",
     "jugadores": "2 - 5",
     "duracion": "15 min",
